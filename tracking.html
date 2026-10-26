@@ -1,0 +1,76 @@
+<!doctype html>
+<!-- Designed & developed by Mohammed Abdelrazek -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shipment Tracking — KAN Logistics</title>
+    <meta name="description" content="Have a shipment with KAN Logistics? Use your shipment reference to contact our team for the latest transport status and assistance with your cargo.">
+    <link rel="canonical" href="https://kanlogs.com/tracking">
+    <meta property="og:title" content="Shipment Tracking — KAN Logistics">
+    <meta property="og:description" content="Have a shipment with KAN Logistics? Use your shipment reference to contact our team for the latest transport status and assistance with your cargo.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kanlogs.com/tracking">
+    <meta property="og:image" content="https://kanlogs.com/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Shipment Tracking — KAN Logistics">
+    <meta name="twitter:description" content="Have a shipment with KAN Logistics? Use your shipment reference to contact our team for the latest transport status and assistance with your cargo.">
+    <meta name="twitter:image" content="https://kanlogs.com/images/og-image.jpg">
+    <meta name="theme-color" content="#060d16">
+    <meta name="designer" content="Mohammed Abdelrazek">
+    <link rel="author" href="/humans.txt">
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preload" href="/fonts/manrope-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <script type="module" src="/src/js/main.js"></script>
+    <script type="module" src="/src/js/tracking.js"></script>
+  </head>
+  <body>
+    <!-- @include header page="tracking" -->
+
+    <main id="main" tabindex="-1">
+      <section class="ph">
+        <div class="container ph__head">
+          <div>
+            <p class="kicker">SHIPMENT TRACKING</p>
+            <h1><span class="line" style="--i: 0"><span>Stay connected</span></span> <span class="line" style="--i: 1"><span><em>to your cargo.</em></span></span></h1>
+          </div>
+          <p class="ph__lead">A clear path to your latest shipment information.</p>
+        </div>
+        <div class="container ph__media-wrap">
+          <figure class="ph__media" data-grow>
+            <img data-photo="yard-topdown" sizes="100vw" alt="Overhead view of container stacks and lanes in a port yard" fetchpriority="high" decoding="async">
+          </figure>
+        </div>
+      </section>
+
+      <section class="tracking on-light" aria-labelledby="tracking-title">
+        <div class="container">
+          <div class="tracking__card" data-reveal>
+            <svg class="icon tracking__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z"/><path d="M12 22V12"/><path d="m3.3 7 7.703 4.734a2 2 0 0 0 1.994 0L20.7 7"/><path d="m7.5 4.27 9 5.15"/></svg>
+            <h2 id="tracking-title">Track your shipment</h2>
+            <p>Enter your KAN shipment reference to request a status update.</p>
+            <form class="form" data-tracking-form>
+              <label class="field">Shipment reference
+                <span class="track-form">
+                  <input name="reference" required placeholder="Enter shipment or booking reference" autocomplete="off">
+                  <button class="btn btn--ink btn--plain" type="submit">Check status</button>
+                </span>
+              </label>
+            </form>
+            <div class="tracking-result" role="status" hidden data-tracking-result>
+              <h3>Contact our team for your latest status.</h3>
+              <p>Live shipment tracking is not connected yet. Our team can assist with your shipment reference.</p>
+              <a class="text-link" href="/contact?service=Shipment%20tracking">Request a shipment update →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- @include footer -->
+  </body>
+</html>

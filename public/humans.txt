@@ -1,0 +1,7 @@
+/* TEAM */
+Design & development: Mohammed Abdelrazek
+Site: https://kanlogs.com
+
+/* SITE */
+Built with: HTML, CSS, JavaScript, Vite, GSAP, Lenis
+Fonts: Manrope, Libre Baskerville

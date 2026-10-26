@@ -1,0 +1,117 @@
+<!doctype html>
+<!-- Designed & developed by Mohammed Abdelrazek -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Our Team — KAN Logistics</title>
+    <meta name="description" content="Discuss your cargo, routes, deadlines, and warehousing needs with KAN Logistics. Send our team an enquiry for solutions designed around your business.">
+    <link rel="canonical" href="https://kanlogs.com/contact">
+    <meta property="og:title" content="Contact Our Team — KAN Logistics">
+    <meta property="og:description" content="Discuss your cargo, routes, deadlines, and warehousing needs with KAN Logistics. Send our team an enquiry for solutions designed around your business.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kanlogs.com/contact">
+    <meta property="og:image" content="https://kanlogs.com/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact Our Team — KAN Logistics">
+    <meta name="twitter:description" content="Discuss your cargo, routes, deadlines, and warehousing needs with KAN Logistics. Send our team an enquiry for solutions designed around your business.">
+    <meta name="twitter:image" content="https://kanlogs.com/images/og-image.jpg">
+    <meta name="theme-color" content="#060d16">
+    <meta name="designer" content="Mohammed Abdelrazek">
+    <link rel="author" href="/humans.txt">
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preload" href="/fonts/manrope-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <script type="module" src="/src/js/main.js"></script>
+    <script type="module" src="/src/js/contact.js"></script>
+  </head>
+  <body>
+    <!-- @include header page="contact" -->
+
+    <main id="main" tabindex="-1">
+      <section class="ph">
+        <div class="container ph__head">
+          <div>
+            <p class="kicker">CONTACT US</p>
+            <h1><span class="line" style="--i: 0"><span>Your challenge.</span></span> <span class="line" style="--i: 1"><span><em>Our next conversation.</em></span></span></h1>
+          </div>
+          <p class="ph__lead">Let’s design a solution that works for your business.</p>
+        </div>
+        <div class="container ph__media-wrap">
+          <figure class="ph__media" data-grow>
+            <img data-photo="highway" sizes="100vw" alt="Two box trailers travelling a highway through hills at first light" fetchpriority="high" decoding="async">
+          </figure>
+        </div>
+      </section>
+
+      <section class="contact on-light" aria-labelledby="contact-title">
+        <div class="container contact__grid">
+          <div class="contact__intro" data-reveal>
+            <p class="kicker">LET’S FIND YOUR SOLUTION</p>
+            <h2 id="contact-title">Tell us where<br><em>you want to go.</em></h2>
+            <p>Share your transport, clearance, or storage requirements. Send an enquiry directly to the KAN team.</p>
+            <div class="contact-note">
+              <strong>Built around your business</strong>
+              <p class="contact-note__route">Saudi Arabia · GCC · International corridors</p>
+              <p>For shipment enquiries, please include your booking or shipment reference.</p>
+            </div>
+          </div>
+
+          <div class="panel" data-reveal style="--delay: 0.1s">
+            <form class="form" data-enquiry-form>
+              <div class="form__row">
+                <label class="field">Your name
+                  <input name="name" required maxlength="150" placeholder="Full name" autocomplete="name">
+                </label>
+                <label class="field">Company
+                  <input name="company" maxlength="200" placeholder="Company name" autocomplete="organization">
+                </label>
+              </div>
+              <div class="form__row">
+                <label class="field">Email address
+                  <input name="email" type="email" required placeholder="you@company.com" autocomplete="email">
+                </label>
+                <label class="field">Phone number
+                  <input name="phone" type="tel" placeholder="Include country code" autocomplete="tel">
+                </label>
+              </div>
+              <label class="field">Service
+                <select name="service">
+                  <option>General enquiry</option>
+                  <option>Inland services</option>
+                  <option>Customs clearance</option>
+                  <option>Ocean freight</option>
+                  <option>Air freight</option>
+                  <option>Warehousing solutions</option>
+                  <option>Shipment tracking</option>
+                </select>
+              </label>
+              <label class="field">How can we help?
+                <textarea name="message" required rows="5" maxlength="5000" placeholder="Tell us about your cargo, route, timing, and requirements."></textarea>
+              </label>
+              <label class="consent">
+                <input type="checkbox" required>
+                <span>I agree that KAN Logistics may use these details to respond to my enquiry.</span>
+              </label>
+              <p class="form-error" role="alert" hidden data-form-error></p>
+              <button class="btn btn--ink form__submit" type="submit"><span data-submit-label>Send enquiry</span> <span class="btn__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span></button>
+              <small class="form__footnote">Your details are saved securely and are not publicly visible.</small>
+            </form>
+
+            <div class="result" role="status" tabindex="-1" hidden data-form-success>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>
+              <h3>Thank you for reaching out.</h3>
+              <p>Your enquiry has been received by KAN Logistics.</p>
+              <button class="text-button text-link" type="button" data-form-reset>Send another enquiry</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- @include footer -->
+  </body>
+</html>

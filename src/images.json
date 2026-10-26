@@ -1,0 +1,123 @@
+{
+  "desert-road": {
+    "width": 2560,
+    "height": 1441,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ]
+  },
+  "freighter": {
+    "width": 2560,
+    "height": 1707,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ]
+  },
+  "highway": {
+    "width": 2560,
+    "height": 1707,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ]
+  },
+  "mountain-road": {
+    "width": 2560,
+    "height": 1440,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ]
+  },
+  "port-palms": {
+    "width": 2560,
+    "height": 1707,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ]
+  },
+  "ship-aerial": {
+    "width": 2560,
+    "height": 1708,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ]
+  },
+  "ship-sea": {
+    "width": 2560,
+    "height": 1844,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ]
+  },
+  "warehouse-forklift": {
+    "width": 2560,
+    "height": 1707,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ]
+  },
+  "yard-cranes": {
+    "width": 2560,
+    "height": 1707,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ]
+  },
+  "yard-grid": {
+    "width": 2560,
+    "height": 1707,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ]
+  },
+  "yard-topdown": {
+    "width": 2560,
+    "height": 1707,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ]
+  }
+}
